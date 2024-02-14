@@ -1,0 +1,146 @@
+/* COLOR PALETTE
+.color1 {color: #342726;}
+.color2 {color: #51423c;}
+.color3 {color: #786359;}
+.color4 {color: #ab977e;}
+.color5 {color: #e2cead;}
+ */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f4f1;
+    display: flex;
+    /* gap: 10%; */
+    padding: 5em;
+    font-family: "Bitter", serif;
+    line-height: 150%;
+}
+
+.colonne1 {
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+}
+
+.colonne1 dl {
+    align-items: center;
+    text-align: left;
+}
+
+.persona {
+    width: 75%;
+}
+
+.colonne2 {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+    background-color: #d8cbbd;
+    padding: 2.5em;
+    width: 65%;
+    margin-bottom: 2em;
+}
+
+.profile h3 {
+    font-size: 2em;
+    padding-bottom: 0.5em;
+}
+
+.profile h3:nth-of-type(2){
+    padding-top: 0.5em;
+}
+
+.pro {
+    background-color: #ebe5de;
+    padding: 2.5em;
+    width: 65%;
+    margin-bottom: 2em;
+}
+
+.pro h3 {
+    font-size: 2em;
+    padding-bottom: 0.5em;
+}
+
+.pro h3:nth-of-type(2){
+    padding-top: 1em;
+}
+
+.formation {
+    background-color: #eadbcc;
+    padding: 2.5em;
+    width: 65%;
+    margin-bottom: 2em;
+}
+
+.formation h3 {
+    font-size: 2em;
+    padding-bottom: 0.5em;
+}
+
+/* .formation h3:nth-of-type(2){
+    padding-top: 1em;
+} */
+
+p {
+    padding-bottom: 2em;
+}
+
+dt {
+    font-weight: bold;
+}
+
+.titredate {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+}
+
+.titredate dd {
+    text-decoration: underline;
+    font-style: italic;
+    
+}
+
+.colonne2 dd {
+    font-style: italic;
+}
+
+.noitalic {
+    font-style:normal !important;
+}
+
+.persona h1 {
+    font-size: 5em;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: right;
+}
+
+.persona h2 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 1.5em;
+    text-align: right;
+
+}
+
+figure {
+    border-radius: 4px;
+    height: auto;
+    max-width: 100%;
+}
