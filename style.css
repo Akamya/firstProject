@@ -47,6 +47,10 @@ body {
     flex-direction: column;
 }
 
+.colonne2 h3 {
+    line-height: 150%;
+}
+
 .profile {
     background-color: #d8cbbd;
     padding: 2.5em;
@@ -57,6 +61,7 @@ body {
 .profile h3 {
     font-size: 2em;
     padding-bottom: 0.5em;
+    text-transform: uppercase;
 }
 
 .profile h3:nth-of-type(2){
@@ -73,6 +78,7 @@ body {
 .pro h3 {
     font-size: 2em;
     padding-bottom: 0.5em;
+    text-transform: uppercase;
 }
 
 .pro h3:nth-of-type(2){
@@ -89,6 +95,7 @@ body {
 .formation h3 {
     font-size: 2em;
     padding-bottom: 0.5em;
+    text-transform: uppercase;
 }
 
 /* .formation h3:nth-of-type(2){
@@ -128,6 +135,7 @@ dt {
     text-transform: uppercase;
     font-weight: 500;
     text-align: right;
+    letter-spacing: .2rem;
 }
 
 .persona h2 {
@@ -136,11 +144,77 @@ dt {
     font-weight: 500;
     padding-top: 1.5em;
     text-align: right;
+    letter-spacing: .2rem;
+}
 
+img {
+    height: auto;
+    width: 75%;
+    border: 2px solid #d8cbbd;
+    border-radius: 50%;
 }
 
 figure {
-    border-radius: 4px;
-    height: auto;
-    max-width: 100%;
+    text-align: right;
+    padding-top: 2.5em;
 }
+
+.persona h3 {
+    padding-top: 3em;
+    padding-bottom: 1.5em;
+    text-transform: uppercase;
+    text-align: right;
+    letter-spacing: .2rem;
+    font-size: 1em;
+}
+
+.persona dt:first-child {
+    font-size: 2em;
+    padding-bottom: 1em;
+    padding-top:3em;
+    text-transform: uppercase;
+}
+
+/* .persona dt {
+    padding
+} */
+
+.level {
+    position: relative;
+    width: 13em;
+    height: 6px;
+    background: #d8cbbd;
+    display: block;
+    margin-top: 0.5em;
+}
+
+.skillname {
+    margin-top: 0.5em;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+}
+
+.level div {
+    height: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: #6b6661;
+}
+
+.skilllevel {
+    margin-right: 30%;
+}
+
+.persona dd {
+    padding-bottom: 0.5em;
+    font-size: 1.2em;
+}
+
+/* .persona .games {
+    display: flex;
+    justify-content: space-between;
+} */

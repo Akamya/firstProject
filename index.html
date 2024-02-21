@@ -15,28 +15,98 @@
         <h2>Langlet</h2>
           <h3>Etudiante</h3>
           <figure>
-            <!-- <img src="./public/pdp.jpg"> -->
+            <img src="./public/pdp1.jpg">
           </figure>
           <dl>
-            <dt>Détails personnels</dt>
-            <dd>elodie.langlet@gmail.com</dd>
-            <dd>0486143076</dd>
-            <dd>20/04/1999</dd>
-            <dd>Rue des liniers, 44 1300 Wavre</dd>
+            <dt class="detailspersonnels">Détails personnels</dt>
+            <dd><ion-icon class="icon" name="mail"></ion-icon> elodie.langlet@gmail.com</dd>
+            <dd><ion-icon class="icon" name="call"></ion-icon> 0486143076</dd>
+            <dd class="icon"><i class="fas fa-birthday-cake"></i> 20/04/1999</dd>
+            <dd><ion-icon name="home"></ion-icon> Rue des liniers, 44 1300 Wavre</dd>
           </dl>
           <dl>
             <dt>Compétences</dt>
-            <dd>HTML/CSS</dd>
-            <dd>JavaScript</dd>
-            <dd>PHP</dd>
-            <dd>SQL</dd>
-            <dd>Figma</dd>
-            <dd>Suite Office</dd>
+            <div class="competences">
+              <div class="skill">
+                <dd>HTML/CSS</dd>
+                <div class="skilllevel">
+                  <div class="level">
+                    <div style="width: 90%;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill">
+                <dd>JavaScript</dd>
+                <div class="skilllevel">
+                  <div class="level">
+                    <div style="width: 65%;"></div>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="skill">
+                <dd>PHP</dd>
+                <div class="skilllevel">
+                  <div class="level">
+                    <div style="width: 55%;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill">
+                <dd>SQL</dd>
+                <div class="skilllevel">
+                  <div class="level">
+                    <div style="width: 60%;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill">
+                <dd>Figma</dd>
+                <div class="skilllevel">
+                  <div class="level">
+                    <div style="width: 70%;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill">
+                <dd>Suite Office</dd>
+                <div class="skilllevel">
+                  <div class="level">
+                    <div style="width: 95%;"></div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
           </dl>
           <dl>
             <dt>Langues</dt>
-            <dd>Français</dd>
-            <dd>Anglais</dd>
+            <div class="skill">
+              <dd>Français</dd>
+              <div class="skilllevel">
+                <div class="level">
+                  <div style="width: 100%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <dd>Anglais</dd>
+              <div class="skilllevel">
+                <div class="level">
+                  <div style="width: 95%;"></div>
+                </div>
+              </div>
+            </div>
+          </dl>
+          <dl>
+            <dt>Centres d'intérêt</dt>
+            <div class="games">
+              <dd><ion-icon name="game-controller"></ion-icon> Jeux Vidéo</dd>
+              <dd><ion-icon name="musical-notes"></ion-icon> Musique</dd>
+              <dd><ion-icon name="film"></ion-icon> Films/Séries</dd>
+              <dd><ion-icon name="pizza"></ion-icon> Nourriture</dd>
+            </div>
+            
           </dl>
         </div>
       </div>
@@ -160,5 +230,8 @@
 
     <div id="app"></div>
     <script type="module" src="/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
   </body>
 </html>
